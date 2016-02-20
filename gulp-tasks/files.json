@@ -7,7 +7,8 @@
     "node_modules/uikit/src/js/core/utility.js",
     "node_modules/uikit/src/js/core/grid.js",
     "node_modules/uikit/src/js/core/smooth-scroll.js",
-    "node_modules/uikit/src/js/components/sticky.js"
+    "node_modules/uikit/src/js/components/sticky.js",
+    "node_modules/uikit/src/js/components/cover.js"
   ],
   "app": [
     "assets/js/init.js"
