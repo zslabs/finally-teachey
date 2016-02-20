@@ -44,4 +44,4 @@ assets/js/sourcemaps/*
 assets/css/sourcemaps/*
 
 dist/*
-.publish/*
+.publish/
