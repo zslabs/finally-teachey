@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "src": "assets/js/**/*.js",
+    "build": "dist/assets/js/"
+  },
+  "styles": {
+    "src": "assets/css/**/*.less",
+    "build": "dist/assets/css/"
+  },
+  "media": {
+    "src": "assets/media/**/*",
+    "build": "dist/assets/media/"
+  },
+  "svg": {
+    "src": "assets/svg/*.svg",
+    "build": "dist/assets/svg/"
+  }
+}
