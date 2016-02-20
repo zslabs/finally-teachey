@@ -11,6 +11,8 @@ var getTask = function(task) {
   return require('./gulp-tasks/' + task)(gulp, $, browserSync, reload, merge, paths, files);
 };
 
+// Deploy
+gulp.task('deploy', getTask('deploy'));
 // BrowserSync
 gulp.task('browser-sync', getTask('browser-sync'));
 // Styles
