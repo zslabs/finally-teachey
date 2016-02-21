@@ -19,7 +19,8 @@
     freeScroll: true,
     pageDots: false,
     autoPlay: true,
-    percentPosition: false
+    percentPosition: false,
+    imagesLoaded: true
   });
 
   var timespan = countdown(new Date(), new Date('October 16, 2016 16:00:00'));
