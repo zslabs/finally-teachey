@@ -8,7 +8,7 @@
   UIkit.on('beforeready.uk.dom', function() {
     $.extend(UIkit.components.smoothScroll.prototype.defaults, {
       duration: 600,
-      offset: 160
+      offset: 130
     });
   });
 
