@@ -12,6 +12,16 @@
     });
   });
 
+  // Gallery
+  $('.Gallery').flickity({
+    contain: true,
+    wrapAround: true,
+    freeScroll: true,
+    pageDots: false,
+    autoPlay: true,
+    percentPosition: false
+  });
+
   var timespan = countdown(new Date(), new Date('October 16, 2016 16:00:00'));
 
   document.querySelector('.Months').innerHTML = timespan.months;
