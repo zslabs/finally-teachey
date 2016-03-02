@@ -119,9 +119,20 @@
     }
   }
 
+  svg {
+    max-width: 100%;
+  }
+
   a {
     display: inline-block;
     line-height: 1;
+
+    &:hover {
+
+      svg {
+        fill: @global-link-hover-color;
+      }
+    }
   }
 }
 
@@ -131,8 +142,8 @@
 }
 
 .HoneyFund {
-  width: auto;
-  height: 120px;
+  width: 275px;
+  height: 135px;
 }
 
 .SurveyContainer {
