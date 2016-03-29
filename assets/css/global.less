@@ -60,7 +60,11 @@
 }
 
 .Top {
-  background-image: url('../media/main.jpg');
+  background-image: url('../media/mobile-header.png');
+
+  @media (min-width: @breakpoint-medium) {
+    background-image: url('../media/main.jpg');
+  }
 
   &-content {
     text-align: center;
@@ -70,7 +74,7 @@
     right: 0;
     padding: 0 @global-margin;
     margin: 0 auto;
-    bottom: (@global-margin * 2);
+    bottom: (@global-margin);
 
     @media (min-width: @breakpoint-medium) {
       bottom: (@global-margin * 4);
